@@ -1,11 +1,14 @@
 package br.com.manga.ui.signin
 
-import android.content.Context
-import android.widget.Toast
 import androidx.lifecycle.ViewModel
+import br.com.manga.repository.AppRepository
 
 class SignInViewModel: ViewModel() {
-    fun testViewModel(ctx: Context) {
-        Toast.makeText(ctx, "Test", Toast.LENGTH_SHORT).show()
+
+    private val userRepository = AppRepository()
+
+    fun signIn(email: String, password: String): Boolean {
+        val user = userRepository.userList.value.find { it.email == email && it.password == password }
+        return user != null
     }
 }
