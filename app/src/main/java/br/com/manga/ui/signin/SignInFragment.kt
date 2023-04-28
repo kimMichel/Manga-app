@@ -31,7 +31,7 @@ class SignInFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.button.setOnClickListener {
             if (viewModel.signIn(email, password)) {
-                SignInFragmentDirections.actionSignInFragmentToHomeFragment().apply {
+                SignInFragmentDirections.actionSignInFragmentToMainFragment().apply {
                     navigator.safeNavigate(this)
                 }
             } else {

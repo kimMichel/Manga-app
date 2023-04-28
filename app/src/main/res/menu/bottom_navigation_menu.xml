@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bnHome"
+        android:enabled="true"
+        android:icon="@drawable/ic_bn_home"
+        android:title="@string/bottom_navigation_home"/>
+    <item
+        android:id="@+id/bnManga"
+        android:enabled="true"
+        android:icon="@drawable/ic_bn_manga"
+        android:title="@string/bottom_navigation_manga"/>
+    <item
+        android:id="@+id/bnSearch"
+        android:enabled="true"
+        android:icon="@drawable/ic_bn_search"
+        android:title="@string/bottom_navigation_search"/>
+    <item
+        android:id="@+id/bnProfile"
+        android:enabled="true"
+        android:icon="@drawable/ic_bn_profile"
+        android:title="@string/bottom_navigation_profile"/>
+
+</menu>
