@@ -36,25 +36,11 @@ class MainFragment : Fragment() {
                     profileFragment.root.isVisible = false
                     true
                 }
-                R.id.bnManga -> {
-                    homeFragment.root.isVisible = false
-                    mangaFragment.root.isVisible = true
-                    searchFragment.root.isVisible = false
-                    profileFragment.root.isVisible = false
-                    true
-                }
                 R.id.bnSearch -> {
                     homeFragment.root.isVisible = false
                     mangaFragment.root.isVisible = false
                     searchFragment.root.isVisible = true
                     profileFragment.root.isVisible = false
-                    true
-                }
-                R.id.bnProfile -> {
-                    homeFragment.root.isVisible = false
-                    mangaFragment.root.isVisible = false
-                    searchFragment.root.isVisible = false
-                    profileFragment.root.isVisible = true
                     true
                 }
                 else -> {true}
