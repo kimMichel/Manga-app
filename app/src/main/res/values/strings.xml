@@ -12,6 +12,11 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    <!-- Home Fragment -->
+    <string name="home_fragment_name">Android dev</string>
+    <string name="home_fragment_email">user@email.com</string>
+    <string name="home_fragment_trending">Trending Manga</string>
+
     <!-- Bottom Navigation -->
     <string name="bottom_navigation_home">Home</string>
     <string name="bottom_navigation_manga">Manga</string>
